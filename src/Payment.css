@@ -48,3 +48,42 @@
     border-color: #0e65ac #0d5fa2 #0a5fa4;
     color: white;
 }
+
+@media (max-width: 990px) {
+    .payment__section {
+        display: block;
+        
+
+        padding: 20px;
+        margin: 0 auto;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    .payment__title {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .payment__address, .payment__details {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .payment__details > form {
+        max-width: 100%;
+    }
+
+    .payment__details > form > div > button {
+        justify-self:center;
+        background: #187bcd;
+        border-radius: 2px;
+        width: 100%;
+        height: 30px;
+        border: 1px solid;
+        font-weight: bolder;
+        margin: 0 auto;
+        margin-top: 10px;
+        border-color: #0e65ac #0d5fa2 #0a5fa4;
+        color: white;
+    }
+}

@@ -99,7 +99,7 @@ function Payment() {
                     <div className="payment__address">
                         <p>{user?.email}</p>
                         <p>3 Grace Crescent</p>
-                        <p>VGC Lagos</p>
+                        <p>VGC Lagos Nigeria</p>
                     </div>
                 </div>
                 

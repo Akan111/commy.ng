@@ -32,4 +32,19 @@
 }
 
 
-
+@media (max-width: 990px) {
+    .checkoutProduct {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgb(211, 211, 211);
+    }
+    
+    .checkoutProduct__image {
+        margin-top: 20px;
+        object-fit: contain;
+        width: 180px;
+        height: 180px;
+    }
+}

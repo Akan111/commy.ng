@@ -15,3 +15,17 @@
     padding: 10px;
     border-bottom: 1px solid lightgray;
 }
+
+@media (max-width: 990px) {
+    .checkout {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .checkout__right {
+        display: flex;
+        flex: 1;
+        justify-self: center;
+        margin: 0 auto;
+    }
+  }
